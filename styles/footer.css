@@ -1,0 +1,44 @@
+footer {
+  text-align: center;
+  background-image: url(https://bitly.ws/Wcqa);
+  background-size: cover;
+  padding: 16rem 5rem 2rem 5rem;
+}
+
+footer div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+footer p {
+  margin-top: 3rem;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+footer .links a {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+footer .links a:hover {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer .social {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .social img:hover {
+  transform: scale(1.2) rotate(5deg);
+  cursor: pointer;
+}

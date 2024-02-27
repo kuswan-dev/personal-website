@@ -1,0 +1,30 @@
+header {
+  width: 100vw;
+  background: #00000088;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  z-index: 1;
+}
+
+header span {
+  color: #643ccc;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0.3rem solid transparent;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+nav a:hover {
+  border-radius: 0.5rem;
+  background: linear-gradient(#151515 0 0) padding-box,
+    linear-gradient(to right, #aa367c80, #4a2fbd80) border-box;
+}

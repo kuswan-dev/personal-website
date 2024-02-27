@@ -1,0 +1,59 @@
+#home {
+  min-height: 100vh;
+  background-image: url(https://bitly.ws/Wcaa);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.tagline {
+  background: linear-gradient(to right, #aa367c80, #4a2fbd80);
+  border: 1px #ffffff solid;
+  padding: 0.5rem;
+}
+
+#home h1 {
+  margin: 1.5rem 0;
+}
+
+#home p {
+  color: #cccccc;
+}
+
+.connect {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-top: 3rem;
+}
+
+.connect span {
+  display: inline-block;
+  transform: scaleX(0);
+}
+
+.connect:hover span {
+  transform: scaleX(1);
+}
+
+#home img {
+  width: 22rem;
+  height: 22rem;
+  animation: moves 5s infinite;
+}
+
+@keyframes moves {
+  0% {
+    transform: translateY(1rem);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(1rem);
+  }
+}
